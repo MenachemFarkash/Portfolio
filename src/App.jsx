@@ -70,16 +70,6 @@ function App() {
       </section>
       <aside>
         <h2>Technologies</h2>
-        <ul>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Redux</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>SQL</li>
-          <li>MongoDB</li>
-        </ul>
       </aside>
     </>
   );

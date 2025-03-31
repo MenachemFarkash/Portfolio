@@ -1,5 +1,6 @@
 .project_card_container {
-  background-color: rgb(237, 198, 170);
+  background-color: var(--third-color);
+  box-shadow: 0 0 15px 3px var(--second-color);
   border-radius: 25px;
   padding: 1rem;
 }

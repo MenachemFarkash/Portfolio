@@ -1,7 +1,8 @@
 .education_card_container {
-  background-color: rgb(193, 151, 232);
+  background-color: var(--third-color);
   padding: 1rem;
   border-radius: 25px;
+  box-shadow: 0 0 15px 3px var(--second-color);
 }
 
 .education_card_image {
