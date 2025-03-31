@@ -13,7 +13,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --first-color: #081c15;
+  /* --first-color: #081c15;
   --second-color: #1b4332;
   --third-color: #2d6a4f;
   --fourth-color: #40916c;
@@ -21,7 +21,37 @@
   --sixth-color: #74c69d;
   --seventh-color: #95d5b2;
   --eighth-color: #b7e4c7;
-  --ninth-color: #d8f3dc;
+  --ninth-color: #d8f3dc; */
+
+  /* --ninth-color: #081c15;
+  --eighth-color: #1b4332;
+  --seventh-color: #2d6a4f;
+  --sixth-color: #40916c;
+  --fifth-color: #52b788;
+  --fourth-color: #74c69d;
+  --third-color: #95d5b2;
+  --second-color: #b7e4c7;
+  --first-color: #d8f3dc; */
+
+  --ninth-color: #3d405b;
+  --eighth-color: #3d405b;
+  --seventh-color: #5f797b;
+  --sixth-color: #eab69f;
+  --fifth-color: #e07a5f;
+  --fourth-color: #f4f1de;
+  --third-color: #81b29a;
+  --second-color: #babf95;
+  --first-color: black;
+  /* 
+  --ninth-color: #212529;
+  --eighth-color: #343a40;
+  --seventh-color: #495057;
+  --sixth-color: #6c757d;
+  --fifth-color: #adb5bd;
+  --fourth-color: #ced4da;
+  --third-color: #dee2e6;
+  --second-color: #e9ecef;
+  --first-color: #f8f9fa; */
 }
 
 a {

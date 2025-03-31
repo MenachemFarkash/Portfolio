@@ -1,8 +1,15 @@
 .education_card_container {
-  background-color: var(--third-color);
+  background-color: var(--fourth-color);
+  max-width: 550px;
   padding: 1rem;
   border-radius: 25px;
-  box-shadow: 0 0 15px 3px var(--second-color);
+  box-shadow: 0 0 15px 3px var(--fourth-color);
+  text-align: center;
+}
+
+.education_card_container > p {
+  font-size: 20px;
+  text-wrap: wrap;
 }
 
 .education_card_image {

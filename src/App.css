@@ -4,14 +4,26 @@
   padding: 2rem;
   text-align: center;
   background-color: var(--eighth-color);
+  box-shadow: 0 0 15px 0 var(--eighth-color);
+  color: black;
 }
 
 .main_section-container {
   background-color: var(--seventh-color);
-  box-shadow: 0 0 15px 3px var(--second-color);
+  box-shadow: 0 0 15px 3px var(--seventh-color);
   border-radius: 25px;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+.main_section-container > h1 {
+  font-size: 105px;
+  color: var(--first-color);
+}
+.main_section-container > p {
+  font-size: 65px;
+  font-weight: 500;
+  color: var(--first-color);
 }
 
 .contact_links_container {
@@ -25,7 +37,7 @@
 
 .education_section_container {
   background-color: var(--seventh-color);
-  box-shadow: 0 0 15px 3px var(--second-color);
+  box-shadow: 0 0 15px 3px var(--seventh-color);
 
   padding: 1rem;
   box-sizing: border-box;
@@ -49,7 +61,7 @@
 
 .projects_cards_container {
   background-color: var(--seventh-color);
-  box-shadow: 0 0 15px 3px var(--second-color);
+  box-shadow: 0 0 15px 3px var(--seventh-color);
   border-radius: 25px;
   padding: 1rem;
   margin-top: 1rem;
