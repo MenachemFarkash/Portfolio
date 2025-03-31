@@ -1,8 +1,9 @@
 #root {
-  width: 100lvw;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: darkgray;
 }
 
 .main_section-container {
@@ -30,8 +31,11 @@
 }
 
 .education_cards_container {
+  background-color: rgb(210, 230, 175);
   display: flex;
   justify-content: space-evenly;
+  padding: 1rem;
+  border-radius: 25px;
 }
 
 .projects_cards_topic_container {
