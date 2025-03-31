@@ -1,0 +1,14 @@
+.contact_link_container {
+  background-color: rgb(238, 184, 184);
+  border-radius: 25px;
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: xx-large;
+}
+
+.contact_link_logo {
+  width: 15rem;
+  height: 15rem;
+}

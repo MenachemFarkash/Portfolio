@@ -1,0 +1,10 @@
+.education_card_container {
+  background-color: rgb(193, 151, 232);
+  padding: 1rem;
+  border-radius: 25px;
+}
+
+.education_card_image {
+  width: 15rem;
+  object-fit: cover;
+}

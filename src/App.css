@@ -1,0 +1,60 @@
+#root {
+  width: 100lvw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main_section-container {
+  background-color: rgb(207, 232, 179);
+  border-radius: 25px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact_links_container {
+  background-color: rgb(120, 120, 230);
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.education_section_container {
+  background-color: rgb(192, 220, 230);
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.education_cards_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects_cards_topic_container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgb(161, 226, 205);
+  border-radius: 1rem;
+}
+
+.projects_cards_container {
+  background-color: rgb(191, 136, 233);
+  border-radius: 25px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.projects_cards_topics_container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgb(161, 226, 205);
+  border-radius: 25px;
+}
