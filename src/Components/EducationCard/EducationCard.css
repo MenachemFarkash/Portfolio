@@ -1,6 +1,6 @@
 .education_card_container {
   background-color: var(--fourth-color);
-  max-width: 550px;
+  max-width: 250px;
   padding: 1rem;
   border-radius: 25px;
   box-shadow: 0 0 15px 3px var(--fourth-color);

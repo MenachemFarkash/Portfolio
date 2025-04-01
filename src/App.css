@@ -1,27 +1,67 @@
 #root {
+  width: 1920px;
+  display: flex;
+  gap: 2rem;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_section_container_main {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 5% 60% 35%;
+  gap: 1rem;
+  justify-items: stretch;
+  height: 900px;
+  width: 100%;
   max-width: 1920px;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
   text-align: center;
-  background-color: var(--eighth-color);
-  box-shadow: 0 0 15px 0 var(--eighth-color);
+  background-color: #7373739c;
+  border-radius: 25px;
+  border: 2px solid rgba(218, 218, 218, 0.683);
   color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.navbar_container {
+  height: 30px;
+  width: 100%;
+  background-color: rgba(93, 93, 93, 0.678);
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  grid-area: span;
+}
+
+.main_section_side_scroll_menu {
+  position: relative;
+  width: 40px;
+  height: 200px;
+  background-color: #a6a6a6af;
+  border-radius: 25px;
+  border: 2px solid rgba(218, 218, 218, 0.683);
+  padding: 1rem;
+  z-index: 9999;
 }
 
 .main_section-container {
-  background-color: var(--seventh-color);
-  box-shadow: 0 0 15px 3px var(--seventh-color);
+  display: flex;
+  align-items: center;
+  background-color: #5757579c;
   border-radius: 25px;
   padding: 1rem;
-  margin-bottom: 1rem;
 }
 
 .main_section-container > h1 {
-  font-size: 105px;
+  /* font-size: 105px; */
   color: var(--first-color);
 }
 .main_section-container > p {
-  font-size: 65px;
+  /* font-size: 65px; */
   font-weight: 500;
   color: var(--first-color);
 }
@@ -36,9 +76,7 @@
 }
 
 .education_section_container {
-  background-color: var(--seventh-color);
-  box-shadow: 0 0 15px 3px var(--seventh-color);
-
+  background-color: #5757579c;
   padding: 1rem;
   box-sizing: border-box;
   border-radius: 25px;
@@ -47,8 +85,12 @@
 .education_cards_container {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
+  height: 80%;
+  gap: 1rem;
   padding: 1rem;
   border-radius: 25px;
+  overflow-y: scroll;
 }
 
 .projects_cards_topic_container {
@@ -60,16 +102,16 @@
 }
 
 .projects_cards_container {
-  background-color: var(--seventh-color);
-  box-shadow: 0 0 15px 3px var(--seventh-color);
+  background-color: #5757579c;
+  box-sizing: border-box;
   border-radius: 25px;
   padding: 1rem;
-  margin-top: 1rem;
 }
 
 .projects_cards_topics_container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 1rem;
   padding: 1rem;
   border-radius: 25px;
