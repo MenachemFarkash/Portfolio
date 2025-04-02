@@ -1,9 +1,8 @@
 .education_card_container {
-  background-color: var(--fourth-color);
+  background-color: #acacac90;
   max-width: 250px;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 25px;
-  box-shadow: 0 0 15px 3px var(--fourth-color);
   text-align: center;
 }
 

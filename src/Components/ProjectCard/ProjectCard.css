@@ -1,7 +1,8 @@
 .project_card_container {
-  background-color: var(--fourth-color);
-  box-shadow: 0 0 15px 3px var(--fourth-color);
+  width: fit-content;
+  background-color: #acacac90;
   border-radius: 25px;
   padding: 1rem;
   font-size: 25px;
+  text-wrap: wrap;
 }

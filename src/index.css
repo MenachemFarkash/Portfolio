@@ -1,13 +1,12 @@
 :root {
   /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: "Kanit", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
   line-height: 1.5;
   font-weight: 400;
   padding: 2rem;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url("../public/backgrond\ computer\ setup.jpg");
-  background-size: cover;
   max-height: 1080px;
   overflow-y: hidden;
 
@@ -28,19 +27,20 @@
 }
 
 .blur {
+  background-image: url("../public/background\ white\ room.jpg");
+  background-size: cover;
+
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
   width: 100dvw;
   height: 100dvh;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-
-  background-color: rgba(255, 255, 255, 0.31);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
 }
 
 a {

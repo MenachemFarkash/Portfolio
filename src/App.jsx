@@ -26,15 +26,14 @@ function App() {
           </div>
         </section>
         <section className="main_section-container">
-          <div>
-            <h1>MENACHEM FARKASH</h1>
-            <p>Full Stack Developer & Game Developer</p>
-            <h2>Personal Information</h2>
-            <p>
-              <b>Email:</b> Menachem.farkash1@gmail.com
-            </p>
+          <div className="main_section_content">
+            <h1>Menachem Farkash</h1>
+            <p>Full Stack & Game Developer</p>
+            <div>
+              <p>Menachem.farkash1@gmail.com</p>
+              <p>054-700-8838</p>
+            </div>
           </div>
-          <h3>links:</h3>
           <div className="contact_links_container">
             <ContactLink
               icon="https://static-00.iconduck.com/assets.00/itch-io-icon-2048x2048-6n1nulpw.png"
@@ -53,19 +52,19 @@ function App() {
             />
           </div>
         </section>
-        <section></section>
+
         <section className="projects_cards_container">
-          <h2>Projects</h2>
+          <h3 className="projects_cards_container_title">Projects</h3>
           <div className="projects_cards_topics_container">
             <div>
-              <h3>Game Development</h3>
+              <h3 className="project_card_topic_title">Game Development</h3>
               <div className="projects_cards_topic_container">
                 <ProjectCard />
                 <ProjectCard />
               </div>
             </div>
             <div>
-              <h3>Web Development</h3>
+              <h3 className="project_card_topic_title">Web Development</h3>
               <div className="projects_cards_topic_container">
                 <ProjectCard />
                 <ProjectCard />
